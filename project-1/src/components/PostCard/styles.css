@@ -1,0 +1,31 @@
+
+.post{
+  background:#fff ;
+  box-shadow:0 0 10px rgba(0,0,0,0.1) ;
+  transition: transform 100ms ease-in-out;
+  
+}
+.post:hover{
+  transform: scale(1.05);
+}
+.post img{
+  max-width: 100%;
+}
+
+
+.post-content{
+  padding: 30px;
+
+}
+.post h6{
+  background-color: rgb(228, 102, 196);
+  width: fit-content;
+  padding: 3px;
+  margin: 10px 10px 10px 0;
+  border-radius: 5px;
+  font-family: monospace;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  font-weight: 100;
+  color: beige;
+}
